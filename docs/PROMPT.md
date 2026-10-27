@@ -68,10 +68,10 @@ interruptor para bajar el tono a *suave*.
 
 ## Identidad visual
 
-- **Logo**: chef de silueta monolínea dentro de un círculo sosteniendo una campana (cloche),
-  como la referencia, pero la cara es el terrorista *Phoenix* de CS:GO (pasamontañas blanco con
-  dos ojos) y lleva **gorro de chef** en lugar de boina. Minimalista, con colores animados en el
-  aro y la campana (respeta `prefers-reduced-motion`).
+- **Logo**: el terrorista *Separatista* de de_inferno (CS:GO) —boina negra, pasamontañas blanco con dos
+  agujeros para los ojos, camisa azul con parche rojo en el hombro, insignia dorada y correa cruzada—
+  sosteniendo una campana de servir, sobre el cielo naranja de Inferno con su campanario. Ilustración
+  estática con volumen (no dibujo animado, no animada). Los emblemas son de cocina (llama, gorro de chef).
 - **Paleta** (distinta a ReciMe): Tinta `#1A1512`, Crema `#FFF7EA`, Bomba `#FF5A1F`,
   Mostaza `#FFC93C`, Albahaca `#1FA36B`, Azul CT `#3D6BFF` (solo para la Pandilla y el rival).
 - **Tipografía** autoalojada: Bricolage Grotesque (titulares) + Onest (interfaz), cifras tabulares.

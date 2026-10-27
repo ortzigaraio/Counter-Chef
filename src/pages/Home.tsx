@@ -47,7 +47,7 @@ export function Home() {
           </button>
         </div>
         <div className="sermon-stamp" aria-hidden>
-          <LogoMark size={190} animated={false} />
+          <LogoMark size={190} />
         </div>
       </section>
 

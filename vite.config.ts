@@ -42,7 +42,12 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
         // Solo latín: el resto de alfabetos de las fuentes se bajan si alguna vez hacen falta.
-        globIgnores: ['**/*-{cyrillic,cyrillic-ext,greek,math,vietnamese}-*.woff2', '**/sdk-*.js'],
+        globIgnores: ['**/*-{cyrillic,cyrillic-ext,greek,math,vietnamese}-*.woff2', '**/sdk-*.js', 'catalog/**'],
+        // El catálogo (JSON + fotos) se cachea al usarse, no en la instalación.
+        runtimeCaching: [
+          { urlPattern: /\/catalog\/recipes\.json$/, handler: 'StaleWhileRevalidate', options: { cacheName: 'cc-catalog' } },
+          { urlPattern: /\/catalog\/img\//, handler: 'CacheFirst', options: { cacheName: 'cc-catalog-img', expiration: { maxEntries: 500, maxAgeSeconds: 60 * 60 * 24 * 365 } } },
+        ],
         navigateFallback: 'index.html',
       },
     }),

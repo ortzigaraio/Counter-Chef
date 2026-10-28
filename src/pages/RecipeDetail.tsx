@@ -119,6 +119,7 @@ export function RecipeDetail() {
   return (
     <article data-cat={recipe.category}>
       {recipe.photo ? <img className="cover" src={recipe.photo} alt="" /> : <div className="cover-fallback" aria-hidden />}
+      {recipe.photoCredit && <p className="tiny faint photo-credit">{recipe.photoCredit}</p>}
 
       <h1 className="title-xl">{recipe.title}</h1>
       <div className="facts num">

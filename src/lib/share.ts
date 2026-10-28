@@ -6,7 +6,7 @@ import { formatQty, unitLabel } from './units'
  * así se comparte sin servidor y funciona aunque el amigo no tenga cuenta.
  */
 
-export type SharedRecipe = Omit<Recipe, 'id' | 'createdAt' | 'updatedAt' | 'photo' | 'favorite'>
+export type SharedRecipe = Omit<Recipe, 'id' | 'createdAt' | 'updatedAt' | 'favorite'>
 
 export interface ChallengePayload {
   kind: 'reto'
@@ -59,8 +59,10 @@ export async function decodePayload<T>(s: string): Promise<T> {
 }
 
 export function stripRecipe(r: Recipe | SharedRecipe): SharedRecipe {
-  const { title, category, servings, servingsLabel, prepMin, cookMin, ingredients, steps, tags, notes, sourceUrl, author } = r as Recipe
-  return { title, category, servings, servingsLabel, prepMin, cookMin, ingredients, steps, tags, notes, sourceUrl, author }
+  const { title, category, servings, servingsLabel, prepMin, cookMin, ingredients, steps, tags, notes, sourceUrl, author, catalogSlug, photoCredit, photo } = r as Recipe
+  // Las fotos propias (data:) no caben en un enlace; las del catálogo son una ruta corta.
+  const catalogPhoto = photo?.startsWith('catalog/') ? photo : undefined
+  return { title, category, servings, servingsLabel, prepMin, cookMin, ingredients, steps, tags, notes, sourceUrl, author, catalogSlug, photo: catalogPhoto, photoCredit: catalogPhoto ? photoCredit : undefined }
 }
 
 export const appBase = () => `${location.origin}${location.pathname}`

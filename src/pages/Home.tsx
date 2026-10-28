@@ -7,7 +7,8 @@ import { useChallenges, useLogs, useProfile, useRecipes } from '../data/repo'
 import { daySeed } from '../lib/roasts'
 import { points, rankFor, streak } from '../lib/ranks'
 import { css } from '../lib/css'
-import { loadSamples } from '../data/samples'
+import { dailyPicks, useCatalog } from '../data/catalog'
+import { CatalogCard } from './Catalog'
 
 export function Home() {
   const recipes = useRecipes()
@@ -16,6 +17,8 @@ export function Home() {
   const profile = useProfile()
   const r = useRoast()
   const [seed, setSeed] = useState(daySeed())
+  const catalog = useCatalog()
+  const picks = useMemo(() => (catalog.list ? dailyPicks(catalog.list, 6, daySeed()) : []), [catalog.list])
 
   const greeting = useMemo(() => r('greeting', {}, daySeed()), [r])
   const rank = rankFor(points(recipes ?? [], logs ?? [], challenges ?? []))
@@ -113,13 +116,29 @@ export function Home() {
               <Link to="/importar" className="btn btn--primary">
                 Importar la primera <ArrowRight size={16} aria-hidden />
               </Link>
-              <button className="btn" onClick={() => loadSamples()}>
-                Cargar 4 de ejemplo
-              </button>
+              <Link to="/recetas?ver=catalogo" className="btn">
+                Explorar el catálogo
+              </Link>
             </div>
           </div>
         )}
       </section>
+
+      {picks.length > 0 && (
+        <section className="section">
+          <div className="section-head">
+            <h2 className="h-sec">Hoy te toca intentar</h2>
+            <Link to="/recetas?ver=catalogo" className="small">
+              {catalog.list?.length} recetas
+            </Link>
+          </div>
+          <div className="cgrid">
+            {picks.map((p) => (
+              <CatalogCard key={p.slug} rec={p} />
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="section">
         <div className="section-head">

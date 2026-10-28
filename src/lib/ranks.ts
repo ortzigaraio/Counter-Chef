@@ -27,7 +27,7 @@ export const threshold = (i: number) => Math.round(18 * i ** 1.55)
 export function points(recipes: Recipe[], logs: CookLog[], challenges: Challenge[]) {
   const cookPts = logs.reduce((s, l) => s + 10 + (l.rating - 3) * 4 + (l.outcome === 'clavada' ? 4 : 0), 0)
   const won = challenges.filter((c) => c.status === 'cerrado' && (c.myRating ?? 0) > (c.rivalRating ?? 0)).length
-  return Math.max(0, cookPts + recipes.length * 3 + won * 15)
+  return Math.max(0, cookPts + recipes.filter((r) => !r.catalogSlug).length * 3 + won * 15)
 }
 
 export function rankFor(pts: number) {

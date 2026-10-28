@@ -21,6 +21,8 @@ PWA instalable, offline y sin cuentas: todo vive en tu dispositivo.
   *Compartir* de Android (Web Share Target) y, opcional, **IA con Claude** usando tu propia clave.
 - **Compartir**: enlace autocontenido (la receta va comprimida en la URL), texto para WhatsApp, JSON, PDF.
 - **La Pandilla**: retos por enlace con nota a superar, respuesta del rival, marcador y generador de vaciles.
+- **Catálogo**: más de 400 recetas en español (pizza, panadería, repostería, cocina española y del mundo,
+  bases de hostelería y bebidas) con fotos libres de Wikimedia Commons. Se guardan en tu recetario con un toque.
 
 ## Desarrollo
 
@@ -41,6 +43,33 @@ npm run build
 ```
 
 `npm run icons` regenera favicon e iconos PWA desde `src/brand/logo.ts` (usa Playwright).
+
+## Catálogo de recetas
+
+Las recetas viven en `catalog/*.md`, una por bloque:
+
+```
+# Pizza margherita
+cat: pizza | rinde: 4 bolas | prep: 30 | fuego: 2 | foto: en:Pizza Margherita | tags: italiana, clásica
+- 600 g harina 00
+1. Disuelve la levadura…
+nota: texto opcional
+```
+
+`foto:` es un artículo de Wikipedia (`es:`, `en:`, `it:`…) cuya imagen principal se usa, o `c:términos` para buscar en Commons.
+
+```bash
+npm run catalog:photos
+```
+
+Descarga las fotos que falten (solo licencias libres: CC0, dominio público, CC BY, CC BY-SA) a
+`public/catalog/img/` y guarda autor y licencia en `catalog/photos.json`. Es incremental y respeta los límites de Wikimedia.
+
+```bash
+npm run catalog
+```
+
+Genera `public/catalog/recipes.json` (también se ejecuta en cada `npm run build`).
 
 ## Publicar en GitHub Pages
 

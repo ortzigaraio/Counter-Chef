@@ -17,6 +17,7 @@ import { Crew } from './pages/Crew'
 import { ProfilePage } from './pages/Profile'
 import { SharedRecipePage, SharedChallengePage, SharedResponsePage } from './pages/Shared'
 import { NotFound } from './pages/NotFound'
+import { CatalogDetail } from './pages/CatalogDetail'
 
 function ThemeSync() {
   const profile = useProfile()
@@ -45,6 +46,7 @@ export function App() {
                   <Route path="/recetas/nueva" element={<RecipeEdit />} />
                   <Route path="/recetas/:id" element={<RecipeDetail />} />
                   <Route path="/recetas/:id/editar" element={<RecipeEdit />} />
+                  <Route path="/catalogo/:slug" element={<CatalogDetail />} />
                   <Route path="/herramientas" element={<Tools />} />
                   <Route path="/herramientas/masa" element={<DoughCalc />} />
                   <Route path="/herramientas/convertir" element={<Converter />} />

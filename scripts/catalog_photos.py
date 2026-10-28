@@ -93,7 +93,7 @@ def resolve_wiki(lang: str, titles: list[str]) -> dict:
         for p in q.get("pages", []):
             if p.get("pageimage"):
                 original = back.get(p["title"], p["title"])
-                found[original] = "File:" + p["pageimage"]
+                found[original] = "File:" + p["pageimage"].replace("_", " ")
     return found
 
 
@@ -123,7 +123,7 @@ def file_info(files: list[str]) -> dict:
                 continue
             meta = ii.get("extmetadata", {})
             lic = meta.get("LicenseShortName", {}).get("value", "")
-            info[p["title"]] = {
+            info[p["title"].replace("_", " ")] = {
                 "thumb": ii.get("thumburl") or ii.get("url"),
                 "page": ii.get("descriptionurl"),
                 "license": lic,
@@ -173,7 +173,7 @@ def main():
     by_lang: dict[str, list[tuple[str, str]]] = {}
     cache = json.loads(RESOLVED.read_text()) if RESOLVED.exists() else {}
     pending_slugs = {p[0] for p in pending}
-    files: dict[str, str] = {k: v for k, v in cache.items() if v and k in pending_slugs}
+    files: dict[str, str] = {k: v.replace("_", " ") for k, v in cache.items() if v and k in pending_slugs}
     for slug, _title, spec in pending:
         if slug in cache:
             continue
@@ -206,7 +206,7 @@ def main():
 
     # 3. Descargar
     for slug, fname in files.items():
-        meta = info.get(fname)
+        meta = info.get(fname.replace("_", " "))
         if not meta or not meta["thumb"]:
             print("  sin info:", slug, fname)
             continue

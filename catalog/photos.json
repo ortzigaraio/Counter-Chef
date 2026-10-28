@@ -13,6 +13,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Aperol_Spritz_-_Santa_Ynez_Kitchen_-_Sarah_Stierch.jpg"
  },
+ "arroz-blanco-perfecto": {
+  "author": "Anna Frodesiak",
+  "file": "File:Steamed rice in bowl 01.jpg",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Steamed_rice_in_bowl_01.jpg"
+ },
  "arroz-negro": {
   "author": "Francesc Fort",
   "file": "File:Arròs Negre i Paella.jpg",
@@ -27,12 +34,26 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Baklava(1).png"
  },
+ "berenjenas-con-miel-de-cana": {
+  "author": "Lagambadeoro",
+  "file": "File:Berenjenas con miel de caña La Gamba de ORO.jpg",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Berenjenas_con_miel_de_ca%C3%B1a_La_Gamba_de_ORO.jpg"
+ },
  "bibimbap": {
   "author": "Sous Chef",
   "file": "File:Dolsot-bibimbap.jpg",
   "license": "CC BY 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Dolsot-bibimbap.jpg"
+ },
+ "bizcocho-de-limon-glaseado": {
+  "author": "Andy Li",
+  "file": "File:Blueberry and lemon drizzle cake - Central Cafe, Natural History Museum 2026-09-03.jpg",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Blueberry_and_lemon_drizzle_cake_-_Central_Cafe,_Natural_History_Museum_2026-09-03.jpg"
  },
  "bizcocho-marmolado": {
   "author": "Fotographen: Thomas Högner Maximilian Högner (User:Leberwurscht)",
@@ -62,6 +83,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Chocolatebrownie.JPG"
  },
+ "bunuelos-de-viento": {
+  "author": "MiguelAlanCS",
+  "file": "File:2021 Buñuelos de viento.jpg",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:2021_Bu%C3%B1uelos_de_viento.jpg"
+ },
  "burritos-de-ternera": {
   "author": "samuelfernandezrivera",
   "file": "File:Burrito.JPG",
@@ -90,12 +118,40 @@
   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "source": "https://commons.wikimedia.org/wiki/File:Caramel-2.jpg"
  },
+ "carrilleras-al-vino-tinto": {
+  "author": "Juan Emilio Prades Bel",
+  "file": "File:Carrillada de cerdo al horno.jpg",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Carrillada_de_cerdo_al_horno.jpg"
+ },
+ "champinones-al-ajillo": {
+  "author": "Tamorlan",
+  "file": "File:Champiñones al ajillo (Madrid).jpg",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Champi%C3%B1ones_al_ajillo_(Madrid).jpg"
+ },
  "cocido-madrileno": {
   "author": "Tnarik",
   "file": "File:CocidoMadrileño.jpg",
   "license": "CC BY-SA 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:CocidoMadrile%C3%B1o.jpg"
+ },
+ "cordero-asado": {
+  "author": "Pravdaverita",
+  "file": "File:Lechazo Cordero Asado Horno de Leña Asador Rafael Corrales Aranda de Duero.JPG",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Lechazo_Cordero_Asado_Horno_de_Le%C3%B1a_Asador_Rafael_Corrales_Aranda_de_Duero.JPG"
+ },
+ "crema-de-verduras": {
+  "author": "Bernt Rostad from Oslo, Norway",
+  "file": "File:Kremostsuppe (cream cheese soup).jpg",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Kremostsuppe_(cream_cheese_soup).jpg"
  },
  "crema-pastelera": {
   "author": "No machine-readable author provided. Interiot~commonswiki assumed (based on copyright claims).",
@@ -104,12 +160,33 @@
   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "source": "https://commons.wikimedia.org/wiki/File:Custard.jpg"
  },
+ "ensalada-de-quinoa": {
+  "author": "TorbeyCharbel",
+  "file": "File:Healthy quinoa salad with dried fruit.jpg",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Healthy_quinoa_salad_with_dried_fruit.jpg"
+ },
+ "ensalada-de-tomate-y-ventresca": {
+  "author": "Kritzolina",
+  "file": "File:Tomato salad with onions and tuna.jpg",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Tomato_salad_with_onions_and_tuna.jpg"
+ },
  "ensalada-waldorf": {
   "author": "Nillerdk",
   "file": "File:Waldorfsalat.jpg",
   "license": "CC BY 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Waldorfsalat.jpg"
+ },
+ "entrecot-con-chimichurri": {
+  "author": "Dominic Lockyer",
+  "file": "File:Steak with Chimichurri Sauce (13316522335).jpg",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Steak_with_Chimichurri_Sauce_(13316522335).jpg"
  },
  "escandallo-de-hamburguesa-para-carta": {
   "author": "Renee Comet (photographer)",
@@ -139,6 +216,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Frixuelos.jpg"
  },
+ "fumet-de-pescado": {
+  "author": "BocaDorada",
+  "file": "File:Fumet (Lubina).jpg",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Fumet_(Lubina).jpg"
+ },
  "gachas-manchegas": {
   "author": "VirtualSteve",
   "file": "File:Porridge.jpg",
@@ -152,6 +236,13 @@
   "license": "CC BY-SA 3.0",
   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "source": "https://commons.wikimedia.org/wiki/File:Gulyas080.jpg"
+ },
+ "hamburguesa-de-garbanzos": {
+  "author": "Jen Arrr",
+  "file": "File:Cashew Chickpea Burger with yam & beet chips (9329929286).jpg",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Cashew_Chickpea_Burger_with_yam_%26_beet_chips_(9329929286).jpg"
  },
  "huevos-rotos-con-jamon": {
   "author": "jlastras",
@@ -174,6 +265,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:VanillaMacaron.jpg"
  },
+ "magdalenas": {
+  "author": "W.carter",
+  "file": "File:Plain vanilla muffin in Tuntorp.jpg",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Plain_vanilla_muffin_in_Tuntorp.jpg"
+ },
  "mantequilla-clarificada": {
   "author": "Rainer Z ...",
   "file": "File:Butterschmalz-2.jpg",
@@ -194,6 +292,13 @@
   "license": "CC BY-SA 2.5",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
   "source": "https://commons.wikimedia.org/wiki/File:Marmitako.JPG"
+ },
+ "mejillones-a-la-marinera": {
+  "author": "Hector Garcia from Barcelona, Catalonia, Spain",
+  "file": "File:Barcelona - Mejillones marinera.jpg",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Mejillones_marinera.jpg"
  },
  "merluza-en-salsa-verde": {
   "author": "Valdavia",
@@ -230,6 +335,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Papasarrugadas.jpg"
  },
+ "mojo-verde": {
+  "author": "MOs810",
+  "file": "File:Mussels in Mojo Verde sauce.jpg",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Mussels_in_Mojo_Verde_sauce.jpg"
+ },
  "moussaka-griega": {
   "author": "Robert Kindermann aka RobertK",
   "file": "File:MussakasMeMelitsanesKePatates01.JPG",
@@ -264,6 +376,27 @@
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Garlicbread.jpg"
+ },
+ "pan-de-hamburguesa-brioche": {
+  "author": "Guilhem Vellut from Paris, France",
+  "file": "File:Hamburger Montagnard, Bistro Burger, Montparnasse, Paris 003.jpg",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Hamburger_Montagnard,_Bistro_Burger,_Montparnasse,_Paris_003.jpg"
+ },
+ "pan-de-hot-dog": {
+  "author": "些細な日常",
+  "file": "File:Yamazaki-hot-dog-buns.jpg",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Yamazaki-hot-dog-buns.jpg"
+ },
+ "pan-de-leche": {
+  "author": "Autor desconocido",
+  "file": "File:Brioche.jpg",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Brioche.jpg"
  },
  "pan-rallado-panko-casero": {
   "author": "Yvwv",
@@ -328,12 +461,54 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Pisto.jpg"
  },
+ "pizza-barbacoa": {
+  "author": "Kim Scarborough from Chicago, IL",
+  "file": "File:Barbecued Chicken with Pizza (Sonoma Chicken Coop) (147979733).jpg",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Barbecued_Chicken_with_Pizza_(Sonoma_Chicken_Coop)_(147979733).jpg"
+ },
+ "pizza-de-higos-gorgonzola-y-jamon": {
+  "author": "Bart Everson",
+  "file": "File:Prosciutto, Gorgonzola and Fig Flat Bread with Balsamic Reduction.jpg",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Prosciutto,_Gorgonzola_and_Fig_Flat_Bread_with_Balsamic_Reduction.jpg"
+ },
+ "pizza-de-masa-madre": {
+  "author": "jeffreyw",
+  "file": "File:Sourdough pizza.jpg",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Sourdough_pizza.jpg"
+ },
  "pizza-de-pepperoni-estilo-new-york": {
   "author": "Hungrydudes",
   "file": "File:NYPizzaPie.jpg",
   "license": "CC BY 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:NYPizzaPie.jpg"
+ },
+ "pizza-de-verduras-a-la-parrilla": {
+  "author": "Petar Milošević",
+  "file": "File:Vegetarian Pizza.jpg",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Vegetarian_Pizza.jpg"
+ },
+ "pizza-diavola": {
+  "author": "掬茶",
+  "file": "File:Pizza Diavola (Verde Ischia).jpg",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Pizza_Diavola_(Verde_Ischia).jpg"
+ },
+ "pizza-prosciutto-e-funghi": {
+  "author": "Takeaway",
+  "file": "File:2014 Pizza con funghi e prosciutto cotto e mozzarella di bufala.jpg",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:2014_Pizza_con_funghi_e_prosciutto_cotto_e_mozzarella_di_bufala.jpg"
  },
  "pollo-al-ajillo": {
   "author": "Paul Keller",
@@ -384,6 +559,13 @@
   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "source": "https://commons.wikimedia.org/wiki/File:Quiche.jpg"
  },
+ "revuelto-de-setas": {
+  "author": "Juan Emilio Prades Bel",
+  "file": "File:Revuelto de setas y jamón.jpg",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Revuelto_de_setas_y_jam%C3%B3n.jpg"
+ },
  "salpicon-de-marisco": {
   "author": "see below.",
   "file": "File:Cocktail 1 bg 060702.jpg",
@@ -398,12 +580,26 @@
   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "source": "https://commons.wikimedia.org/wiki/File:%E9%B6%8F%E5%A4%A9%E3%81%AE%E3%81%86%E3%81%A9%E3%82%93.jpg"
  },
+ "sardinas-asadas": {
+  "author": "Yusuke Kawasaki from Tokyo, Japan",
+  "file": "File:Grilled Sardines 5.50€ Marisqueira O Varino Nazaré (3785526688).jpg",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Grilled_Sardines_5.50%E2%82%AC_Marisqueira_O_Varino_Nazar%C3%A9_(3785526688).jpg"
+ },
  "schnitzel-vienes": {
   "author": "Kobako",
   "file": "File:Wiener-Schnitzel02.jpg",
   "license": "CC BY-SA 2.5",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
   "source": "https://commons.wikimedia.org/wiki/File:Wiener-Schnitzel02.jpg"
+ },
+ "secreto-iberico-a-la-plancha": {
+  "author": "Alice Wiegand",
+  "file": "File:Iberico Secreto 141227 AW.jpg",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Iberico_Secreto_141227_AW.jpg"
  },
  "sobaos-pasiegos": {
   "author": "Tamorlan",
@@ -432,6 +628,27 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:LemonMerangePie.jpg"
+ },
+ "tarta-de-tres-chocolates": {
+  "author": "Juan Emilio Prades Bel",
+  "file": "File:Tarta tres chocolates.jpg",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Tarta_tres_chocolates.jpg"
+ },
+ "tofu-salteado-con-verduras": {
+  "author": "Pradeepraajkumar1981",
+  "file": "File:Stir fried Vegetable Tofu broken with rice for dinner.jpg",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Stir_fried_Vegetable_Tofu_broken_with_rice_for_dinner.jpg"
+ },
+ "tortilla-de-calabacin": {
+  "author": "cyclonebill",
+  "file": "File:Flickr - cyclonebill - Omelet med squash, forårsløg, gulerødder og gedeost.jpg",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Omelet_med_squash,_for%C3%A5rsl%C3%B8g,_guler%C3%B8dder_og_gedeost.jpg"
  },
  "tostadas-francesas": {
   "author": "Jonathunder",

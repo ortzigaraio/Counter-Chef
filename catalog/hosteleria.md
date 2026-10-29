@@ -211,7 +211,7 @@ cat: hosteleria | rinde: 500 g | prep: 20 | fuego: 60 | foto: en:Sofrito | tags:
 4. Porciona y congela.
 
 # Vinagreta clásica
-cat: hosteleria | rinde: 200 ml | prep: 5 | fuego: 0 | foto: en:Vinaigrette | tags: salsas, ensalada
+cat: hosteleria | rinde: 200 ml | prep: 5 | fuego: 0 | foto: c:vinaigrette dressing | tags: salsas, ensalada
 - 150 ml aceite de oliva
 - 50 ml vinagre de vino
 - 1 cdta mostaza
@@ -299,7 +299,7 @@ cat: hosteleria | rinde: 400 g | prep: 5 | fuego: 5 | foto: en:Ganache | tags: c
 3. Añade la mantequilla a 35 °C. Proporción 1:1 para cubrir, 2:1 para trufas.
 
 # Merengue italiano
-cat: hosteleria | rinde: 400 g | prep: 10 | fuego: 10 | foto: en:Meringue | tags: cremas base, repostería
+cat: hosteleria | rinde: 400 g | prep: 10 | fuego: 10 | foto: c:italian meringue | tags: cremas base, repostería
 - 4 claras
 - 240 g azúcar
 - 80 ml agua

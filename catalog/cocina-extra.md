@@ -229,7 +229,7 @@ cat: cocina | rinde: 4 raciones | prep: 10 | fuego: 20 | foto: c:baked salmon ve
 3. Hornea 10–12 min más.
 
 # Dorada a la sal
-cat: cocina | rinde: 2 raciones | prep: 10 | fuego: 25 | foto: c:dorada a la sal | tags: pescado, horno
+cat: cocina | rinde: 2 raciones | prep: 10 | fuego: 25 | foto: c:fish baked in salt | tags: pescado, horno
 - 1 dorada de 800 g
 - 2 kg sal gruesa
 - 2 claras

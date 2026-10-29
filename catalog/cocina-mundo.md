@@ -398,7 +398,7 @@ cat: cocina | rinde: 4 raciones | prep: 20 | fuego: 40 | foto: en:Chicken tikka 
 4. Tritura, añade la nata y el pollo. Cocina 10 min.
 
 # Dal de lentejas rojas
-cat: cocina | rinde: 4 raciones | prep: 10 | fuego: 30 | foto: en:Dal | tags: india, vegana
+cat: cocina | rinde: 4 raciones | prep: 10 | fuego: 30 | foto: c:red lentil dal | tags: india, vegana
 - 300 g lentejas rojas
 - 1 l agua
 - 1 cebolla

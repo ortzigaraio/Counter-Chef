@@ -203,7 +203,7 @@ cat: cocina | rinde: 6 raciones | prep: 20 | fuego: 210 | foto: es:Cocido madril
 5. Cuela el caldo y cuece los fideos: primer vuelco sopa, segundo garbanzos y verduras, tercero carnes.
 
 # Lentejas estofadas
-cat: cocina | rinde: 6 raciones | prep: 15 | fuego: 50 | foto: c:lentejas estofadas chorizo | tags: cuchara, clásico
+cat: cocina | rinde: 6 raciones | prep: 15 | fuego: 50 | foto: c:lentil stew | tags: cuchara, clásico
 - 400 g lentejas pardinas
 - 1 chorizo
 - 1 cebolla
@@ -699,7 +699,7 @@ cat: cocina | rinde: 4 raciones | prep: 10 | fuego: 30 | foto: es:Zarangollo | t
 3. Añade los huevos batidos y cuaja removiendo.
 
 # Tortilla de bacalao
-cat: cocina | rinde: 2 raciones | prep: 10 | fuego: 15 | foto: c:tortilla de bacalao sidreria | tags: vasca, sidrería
+cat: cocina | rinde: 2 raciones | prep: 10 | fuego: 15 | foto: c:tortilla bacalao | tags: vasca, sidrería
 - 200 g bacalao desalado desmigado
 - 1 cebolla
 - 1 pimiento verde
@@ -710,7 +710,7 @@ cat: cocina | rinde: 2 raciones | prep: 10 | fuego: 15 | foto: c:tortilla de bac
 3. Mezcla con los huevos y cuaja una tortilla jugosa.
 
 # Sopa castellana de picadillo
-cat: cocina | rinde: 4 raciones | prep: 10 | fuego: 15 | foto: c:sopa de picadillo | tags: andaluza, cuchara
+cat: cocina | rinde: 4 raciones | prep: 10 | fuego: 15 | foto: c:sopa picadillo | tags: andaluza, cuchara
 - 1,5 l caldo de pollo
 - 100 g fideos finos
 - 2 huevos cocidos

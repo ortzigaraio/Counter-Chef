@@ -62,6 +62,13 @@
   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "source": "https://commons.wikimedia.org/wiki/File:Steamed_rice_in_bowl_01.jpg"
  },
+ "arroz-con-leche": {
+  "author": "Eli123seo",
+  "file": "File:Arroz con leche.png",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Arroz_con_leche.png"
+ },
  "arroz-con-pollo": {
   "author": "Kobako",
   "file": "File:Arroz-con-Pollo.jpg",
@@ -447,6 +454,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Chocolate_Fondant.jpg"
  },
+ "crema-catalana": {
+  "author": "Kritzolina",
+  "file": "File:Food in Catalonia 06.jpg",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Food_in_Catalonia_06.jpg"
+ },
  "crema-de-calabaza": {
   "author": "Wald1siedel",
   "file": "File:Kürbissuppe mit Kernöl.JPG",
@@ -537,13 +551,6 @@
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Classic_Daiquiri_in_Cocktail_Glass.jpg"
- },
- "dal-de-lentejas-rojas": {
-  "author": "User:Justinc",
-  "file": "File:3 types of lentil.png",
-  "license": "CC BY-SA 2.5",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-  "source": "https://commons.wikimedia.org/wiki/File:3_types_of_lentil.png"
  },
  "dumplings-de-gambas-al-vapor": {
   "author": "Maksym Kozlenko",
@@ -1097,13 +1104,6 @@
   "license": "CC BY-SA 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Mejillones_marinera.jpg"
- },
- "merengue-italiano": {
-  "author": "Mike Lehmann, Mike Switzerland 12:44, 27 January 2007 (UTC)",
-  "file": "File:Meringues 9027.jpg",
-  "license": "CC BY-SA 3.0",
-  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Meringues_9027.jpg"
  },
  "merengues-secos": {
   "author": "Mike Lehmann, Mike Switzerland 12:44, 27 January 2007 (UTC)",
@@ -2015,6 +2015,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Apple_pie_14.jpg"
  },
+ "tarta-de-santiago": {
+  "author": "Tamorlan",
+  "file": "File:Tarta de Santiago-2009.jpg",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Tarta_de_Santiago-2009.jpg"
+ },
  "tarta-de-tres-chocolates": {
   "author": "Juan Emilio Prades Bel",
   "file": "File:Tarta tres chocolates.jpg",
@@ -2085,6 +2092,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Torreznos_-_Cerca.JPG"
  },
+ "torrijas": {
+  "author": "Javier Lastras from España/Spain",
+  "file": "File:Torrija con azúcar.jpg",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Torrija_con_az%C3%BAcar.jpg"
+ },
  "tortilla-de-calabacin": {
   "author": "cyclonebill",
   "file": "File:Flickr - cyclonebill - Omelet med squash, forårsløg, gulerødder og gedeost.jpg",
@@ -2154,13 +2168,6 @@
   "license": "CC BY-SA 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Vichyssoise.jpg"
- },
- "vinagreta-clasica": {
-  "author": "GrammarFascist",
-  "file": "File:Vinaigrette dressing with a chopped salad.jpg",
-  "license": "CC BY-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-  "source": "https://commons.wikimedia.org/wiki/File:Vinaigrette_dressing_with_a_chopped_salad.jpg"
  },
  "zarangollo-murciano": {
   "author": "El Mono Español",

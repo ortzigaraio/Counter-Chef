@@ -67,7 +67,7 @@ cat: panaderia | rinde: 1 molde | prep: 20 | fuego: 45 | foto: c:seeded bread lo
 4. Hornea a 220 °C 45 min.
 
 # Bollos suizos
-cat: panaderia | rinde: 10 unidades | prep: 40 | fuego: 15 | foto: c:suizo bollo azucar | tags: desayuno, dulce
+cat: panaderia | rinde: 10 unidades | prep: 40 | fuego: 15 | foto: es:Suizo (bollo) | tags: desayuno, dulce
 - 500 g harina de fuerza
 - 200 ml leche
 - 2 huevos

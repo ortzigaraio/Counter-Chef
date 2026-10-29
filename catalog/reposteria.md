@@ -1,5 +1,5 @@
 # Bizcocho de yogur
-cat: reposteria | rinde: 8 porciones | prep: 15 | fuego: 35 | foto: c:bizcocho de yogur | tags: clásico, merienda
+cat: reposteria | rinde: 8 porciones | prep: 15 | fuego: 35 | foto: c:yogurt cake | tags: clásico, merienda
 - 1 yogur natural
 - 3 huevos
 - 250 g azúcar
@@ -14,7 +14,7 @@ cat: reposteria | rinde: 8 porciones | prep: 15 | fuego: 35 | foto: c:bizcocho d
 5. Hornea en molde de 22 cm 35 min sin abrir el horno los primeros 25 min.
 
 # Tarta de queso al horno estilo La Viña
-cat: reposteria | rinde: 10 porciones | prep: 10 | fuego: 45 | foto: en:Basque burnt cheesecake | tags: tarta de queso, viral
+cat: reposteria | rinde: 10 porciones | prep: 10 | fuego: 45 | foto: c:burnt cheesecake | tags: tarta de queso, viral
 - 1000 g queso crema
 - 400 g azúcar
 - 5 huevos
@@ -490,7 +490,7 @@ cat: reposteria | rinde: 8 raciones | prep: 15 | fuego: 30 | foto: es:Tocino de 
 4. Cuece tapado al baño maría a 160 °C 30 min.
 
 # Rosquillas de anís
-cat: reposteria | rinde: 30 unidades | prep: 30 | fuego: 15 | foto: c:rosquillas fritas anis | tags: tradicional, frita
+cat: reposteria | rinde: 30 unidades | prep: 30 | fuego: 15 | foto: es:Rosquilla | tags: tradicional, frita
 - 3 huevos
 - 150 g azúcar
 - 100 ml aceite de oliva
@@ -518,7 +518,7 @@ cat: reposteria | rinde: 25 unidades | prep: 20 | fuego: 25 | foto: es:Polvorón
 4. Hornea a 180 °C 12 min y no los toques hasta que estén fríos.
 
 # Turrón de chocolate crujiente
-cat: reposteria | rinde: 1 tableta | prep: 15 | fuego: 5 | foto: c:turron chocolate crujiente | tags: navidad, sin horno
+cat: reposteria | rinde: 1 tableta | prep: 15 | fuego: 5 | foto: c:chocolate turrón | tags: navidad, sin horno
 - 300 g chocolate con leche
 - 100 g chocolate negro
 - 80 g mantequilla de cacao o manteca de cacahuete
@@ -628,7 +628,7 @@ cat: reposteria | rinde: 10 porciones | prep: 45 | fuego: 30 | foto: en:Lemon me
 4. Cubre con merengue italiano y dóralo con soplete.
 
 # Tarta de fresas
-cat: reposteria | rinde: 10 porciones | prep: 40 | fuego: 25 | foto: c:strawberry tart | tags: frutas
+cat: reposteria | rinde: 10 porciones | prep: 40 | fuego: 25 | foto: en:Strawberry pie | tags: frutas
 - 250 g masa quebrada
 - 500 ml crema pastelera
 - 500 g fresas
@@ -856,7 +856,7 @@ cat: reposteria | rinde: 4 raciones | prep: 5 | fuego: 5 | foto: es:Cuajada | ta
 4. Sirve con miel y nueces.
 
 # Bizcocho de limón glaseado
-cat: reposteria | rinde: 10 porciones | prep: 20 | fuego: 45 | foto: c:lemon drizzle cake | tags: cítricos, merienda
+cat: reposteria | rinde: 10 porciones | prep: 20 | fuego: 45 | foto: c:lemon cake | tags: cítricos, merienda
 - 225 g mantequilla
 - 225 g azúcar
 - 4 huevos

@@ -24,7 +24,7 @@ cat: panaderia | rinde: 4 piezas | prep: 30 | fuego: 25 | foto: en:Ciabatta | ta
 4. Reposa 30 min y hornea a 240 °C con vapor 25 min.
 
 # Pan de molde
-cat: panaderia | rinde: 1 molde | prep: 30 | fuego: 35 | foto: c:pan de molde white sandwich bread loaf | tags: tostadas, molde
+cat: panaderia | rinde: 1 molde | prep: 30 | fuego: 35 | foto: en:White bread | tags: tostadas, molde
 - 500 g harina de fuerza
 - 280 ml leche
 - 50 g mantequilla
@@ -278,7 +278,7 @@ cat: panaderia | rinde: 30 unidades | prep: 30 | fuego: 18 | foto: en:Grissini |
 4. Hornea a 200 °C 15–18 min hasta que estén secos y dorados.
 
 # Picos de pan
-cat: panaderia | rinde: 60 unidades | prep: 40 | fuego: 25 | foto: c:picos pan andaluz | tags: andaluza, aperitivo
+cat: panaderia | rinde: 60 unidades | prep: 40 | fuego: 25 | foto: c:picos de pan | tags: andaluza, aperitivo
 - 500 g harina panificable
 - 250 ml agua
 - 60 ml aceite de oliva
@@ -345,7 +345,7 @@ cat: panaderia | rinde: 1 trenza | prep: 40 | fuego: 30 | foto: en:Challah | tag
 4. Deja crecer 45 min, pinta con huevo y hornea a 180 °C 30 min.
 
 # Rollos de canela
-cat: panaderia | rinde: 12 rollos | prep: 40 | fuego: 25 | foto: en:Cinnamon roll | tags: dulce, merienda
+cat: panaderia | rinde: 12 rollos | prep: 40 | fuego: 25 | foto: c:cinnamon roll | tags: dulce, merienda
 - 500 g harina de fuerza
 - 240 ml leche
 - 1 huevo
@@ -491,7 +491,7 @@ cat: panaderia | rinde: 16 unidades | prep: 50 | fuego: 12 | foto: en:Kanelbulle
 4. Deja crecer 30 min, pinta con huevo, azúcar perlado y hornea a 220 °C 10–12 min.
 
 # Regañás
-cat: panaderia | rinde: 40 unidades | prep: 30 | fuego: 15 | foto: c:regañás sevillanas | tags: andaluza, crujiente
+cat: panaderia | rinde: 40 unidades | prep: 30 | fuego: 15 | foto: c:regañas | tags: andaluza, crujiente
 - 300 g harina
 - 160 ml agua
 - 50 ml aceite de oliva

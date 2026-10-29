@@ -29,7 +29,7 @@ OUT = ROOT / "public" / "catalog" / "img"
 CREDITS = SRC / "photos.json"
 RESOLVED = SRC / ".photo-resolve.json"  # caché local de búsquedas (no se sube)
 UA = "CounterChefBot/0.1 (https://github.com/ortzigaraio/Counter-Chef) catalog-photo-fetch"
-OK_LICENSE = re.compile(r"^(cc0|public domain|pd|cc by(-sa)?( \d\.\d)?|cc-by(-sa)?)", re.I)
+OK_LICENSE = re.compile(r"^(cc0|public domain|pd|copyrighted free use|cc by(-sa)?( \d\.\d)?|cc-by(-sa)?)", re.I)
 
 
 def slugify(s: str) -> str:
@@ -147,7 +147,7 @@ def save_image(url: str, dest: Path):
             time.sleep(int(e.headers.get("Retry-After") or 2) + attempt)
     if raw is None:
         raise RuntimeError("429 persistente")
-    time.sleep(1.0)
+    time.sleep(6.0)  # upload.wikimedia.org limita mucho las ráfagas
     im = Image.open(io.BytesIO(raw)).convert("RGB")
     # Recorte centrado a 16:10 y 720 px de ancho
     w, h = im.size

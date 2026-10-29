@@ -277,7 +277,7 @@ cat: reposteria | rinde: 25 galletas | prep: 30 | fuego: 10 | foto: en:Gingerbre
 4. Hornea a 180 °C 10 min.
 
 # Rollitos de canela en taza
-cat: reposteria | rinde: 1 taza | prep: 5 | fuego: 2 | foto: c:mug cake | tags: microondas, rápida
+cat: reposteria | rinde: 1 taza | prep: 5 | fuego: 2 | foto: en:Mug cake | tags: microondas, rápida
 - 4 cda harina
 - 1 cda azúcar
 - 1/2 cdta levadura química

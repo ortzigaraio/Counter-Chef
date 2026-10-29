@@ -85,7 +85,7 @@ cat: pizza | rinde: 2 pizzas | prep: 20 | fuego: 8 | foto: c:pizza prosciutto fu
 3. Hornea 7 min, añade el jamón y hornea 1 min más.
 
 # Pizza carbonara
-cat: pizza | rinde: 2 pizzas | prep: 20 | fuego: 9 | foto: c:pizza bianca guanciale | tags: italiana, sin tomate
+cat: pizza | rinde: 2 pizzas | prep: 20 | fuego: 9 | foto: c:pizza carbonara | tags: italiana, sin tomate
 - 2 bolas de masa de pizza de 250 g
 - 150 g mozzarella
 - 100 g guanciale
@@ -175,7 +175,7 @@ cat: pizza | rinde: 1 bandeja | prep: 30 | fuego: 20 | foto: en:Focaccia | tags:
 5. Hornea a 230 °C 20 min.
 
 # Focaccia barese
-cat: pizza | rinde: 1 bandeja | prep: 30 | fuego: 25 | foto: c:focaccia barese | tags: italiana, bandeja
+cat: pizza | rinde: 1 bandeja | prep: 30 | fuego: 25 | foto: c:focaccia pugliese | tags: italiana, bandeja
 - 350 g sémola rimacinata
 - 150 g harina de fuerza
 - 1 patata cocida de 150 g
@@ -205,7 +205,7 @@ cat: pizza | rinde: 4 unidades | prep: 30 | fuego: 4 | foto: it:Pizza fritta | t
 4. Fríe en aceite a 175 °C unos 2 min por lado, regándola con aceite.
 
 # Pizza bianca con patata y romero
-cat: pizza | rinde: 2 pizzas | prep: 20 | fuego: 10 | foto: c:pizza patate rosmarino | tags: italiana, sin tomate
+cat: pizza | rinde: 2 pizzas | prep: 20 | fuego: 10 | foto: c:potato pizza | tags: italiana, sin tomate
 - 2 bolas de masa de pizza de 250 g
 - 2 patatas pequeñas
 - 200 g mozzarella

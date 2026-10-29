@@ -629,7 +629,7 @@ cat: cocina | rinde: 4 raciones | prep: 10 | fuego: 20 | foto: es:Gachas | tags:
 4. Sirve con los tropezones por encima y se come de la sartén.
 
 # Cordero asado
-cat: cocina | rinde: 4 raciones | prep: 10 | fuego: 120 | foto: c:cordero asado horno | tags: castellana, horno, fiestas
+cat: cocina | rinde: 4 raciones | prep: 10 | fuego: 120 | foto: c:lechazo asado | tags: castellana, horno, fiestas
 - 1 paletilla de cordero lechal
 - 300 ml agua
 - 1 cdta sal gruesa

@@ -160,7 +160,7 @@ cat: panaderia | rinde: 1 roscón | prep: 60 | fuego: 25 | foto: es:Roscón de R
 5. Hornea a 180 °C 25 min. Esconde la sorpresa y el haba.
 
 # Pan de leche
-cat: panaderia | rinde: 12 bollos | prep: 30 | fuego: 15 | foto: c:pan de leche bollos | tags: merienda, dulce
+cat: panaderia | rinde: 12 bollos | prep: 30 | fuego: 15 | foto: c:bollos de leche | tags: merienda, dulce
 - 500 g harina de fuerza
 - 250 ml leche
 - 1 huevo
@@ -505,7 +505,7 @@ cat: panaderia | rinde: 40 unidades | prep: 30 | fuego: 15 | foto: c:regañás s
 4. Hornea a 200 °C 12–15 min hasta que estén dorados.
 
 # Pan de hot dog
-cat: panaderia | rinde: 8 panes | prep: 30 | fuego: 15 | foto: c:hot dog bun | tags: americana
+cat: panaderia | rinde: 8 panes | prep: 30 | fuego: 15 | foto: en:Hot dog bun | tags: americana
 - 450 g harina de fuerza
 - 200 ml leche
 - 1 huevo

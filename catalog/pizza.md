@@ -244,7 +244,7 @@ cat: pizza | rinde: 2 pizzas | prep: 15 | fuego: 9 | foto: en:Hawaiian pizza | t
 nota: Si la haces, no se lo cuentes a nadie de Nápoles.
 
 # Pizza barbacoa
-cat: pizza | rinde: 2 pizzas | prep: 25 | fuego: 10 | foto: c:barbecue chicken pizza | tags: americana
+cat: pizza | rinde: 2 pizzas | prep: 25 | fuego: 10 | foto: c:barbecue chicken pizza slice | tags: americana
 - 2 bolas de masa de pizza de 250 g
 - 150 g salsa barbacoa
 - 200 g mozzarella

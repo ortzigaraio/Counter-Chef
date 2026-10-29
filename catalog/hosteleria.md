@@ -161,7 +161,7 @@ cat: hosteleria | rinde: 300 ml | prep: 10 | fuego: 0 | foto: en:Mojo (sauce) | 
 3. Emulsiona con el aceite. Sirve con papas arrugadas.
 
 # Mojo verde
-cat: hosteleria | rinde: 300 ml | prep: 10 | fuego: 0 | foto: c:mojo verde | tags: salsas, canaria
+cat: hosteleria | rinde: 300 ml | prep: 10 | fuego: 0 | foto: c:mojo verde salsa | tags: salsas, canaria
 - 1 manojo de cilantro
 - 1 pimiento verde
 - 3 dientes de ajo

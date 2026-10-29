@@ -36,6 +36,9 @@ export interface Recipe {
   /** Quién la creó, si llegó por enlace de un amigo. */
   author?: string
   favorite?: boolean
+  /** Si viene del catálogo: su slug y el crédito de la foto (Wikimedia Commons). */
+  catalogSlug?: string
+  photoCredit?: string
   createdAt: number
   updatedAt: number
 }

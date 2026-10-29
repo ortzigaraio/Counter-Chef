@@ -1,14 +1,39 @@
 import { useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { Clock, Heart, Plus, Search } from 'lucide-react'
 import { CategoryIcon, Empty, Stars, useRoast } from '../components/ui'
 import { useLogs, useRecipes } from '../data/repo'
 import { CATEGORIES, type Category } from '../data/types'
 import { normalize } from '../lib/foods'
 import { daySeed } from '../lib/roasts'
-import { loadSamples } from '../data/samples'
+import { Catalog } from './Catalog'
 
 export function Recipes() {
+  const [params, setParams] = useSearchParams()
+  const tab = params.get('ver') === 'catalogo' ? 'catalogo' : 'mias'
+  const go = (t: 'mias' | 'catalogo') => setParams(t === 'catalogo' ? { ver: 'catalogo' } : {}, { replace: true })
+  return (
+    <>
+      <div className="row between">
+        <h1 className="h-page">Recetas</h1>
+        <Link to="/recetas/nueva" className="btn btn--ink btn--sm">
+          <Plus size={16} aria-hidden /> Nueva
+        </Link>
+      </div>
+      <div className="seg" role="tablist" aria-label="Qué recetas ver" style={{ marginBottom: 12 }}>
+        <button role="tab" aria-selected={tab === 'mias'} aria-pressed={tab === 'mias'} onClick={() => go('mias')}>
+          Mi recetario
+        </button>
+        <button role="tab" aria-selected={tab === 'catalogo'} aria-pressed={tab === 'catalogo'} onClick={() => go('catalogo')}>
+          Catálogo
+        </button>
+      </div>
+      {tab === 'catalogo' ? <Catalog /> : <MyRecipes onCatalog={() => go('catalogo')} />}
+    </>
+  )
+}
+
+function MyRecipes({ onCatalog }: { onCatalog: () => void }) {
   const recipes = useRecipes()
   const logs = useLogs()
   const r = useRoast()
@@ -40,17 +65,16 @@ export function Recipes() {
   if (recipes && recipes.length === 0)
     return (
       <>
-        <h1 className="h-page">Recetas</h1>
         <Empty quip={r('emptyRecipes', {}, daySeed())}>
           <div className="row wrap" style={{ justifyContent: 'center' }}>
-            <Link to="/importar" className="btn btn--primary">
+            <Link to="/importar" className="btn">
               Importar receta
             </Link>
             <Link to="/recetas/nueva" className="btn">
               Escribirla a mano
             </Link>
-            <button className="btn btn--ghost" onClick={() => loadSamples()}>
-              Cargar ejemplos
+            <button className="btn btn--primary" onClick={onCatalog}>
+              Explorar el catálogo
             </button>
           </div>
         </Empty>
@@ -59,13 +83,6 @@ export function Recipes() {
 
   return (
     <>
-      <div className="row between">
-        <h1 className="h-page">Recetas</h1>
-        <Link to="/recetas/nueva" className="btn btn--ink btn--sm">
-          <Plus size={16} aria-hidden /> Nueva
-        </Link>
-      </div>
-
       <label className="field" style={{ marginTop: 8 }}>
         <span className="sr-only">Buscar</span>
         <div style={{ position: 'relative' }}>

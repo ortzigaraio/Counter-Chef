@@ -1,12 +1,11 @@
 import { useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
-import { Check, Clock, Search } from 'lucide-react'
-import { CategoryIcon, Empty } from '../components/ui'
+import { Search } from 'lucide-react'
+import { Empty } from '../components/ui'
+import { RecipeTile } from '../components/RecipeTile'
 import { useCatalog, type CatalogRecipe } from '../data/catalog'
 import { useRecipes } from '../data/repo'
 import { CATEGORIES, type Category } from '../data/types'
 import { normalize } from '../lib/foods'
-import { css } from '../lib/css'
 
 const PAGE = 40
 
@@ -48,7 +47,8 @@ export function Catalog() {
             className="input"
             style={{ paddingLeft: 42 }}
             type="search"
-            placeholder={`Busca entre ${list.length} recetas: «masa madre», «sin horno», «garbanzos»…`}
+            placeholder="Receta o ingrediente"
+            aria-describedby="cat-count"
             value={q}
             onChange={(e) => {
               setQ(e.target.value)
@@ -75,8 +75,8 @@ export function Catalog() {
           </button>
         ))}
       </div>
-      <p className="small faint num" style={{ margin: '16px 0 10px' }}>
-        {filtered.length} {filtered.length === 1 ? 'receta' : 'recetas'}
+      <p id="cat-count" className="small faint num" style={{ margin: '16px 0 10px' }}>
+        {filtered.length} de {list.length} recetas
       </p>
       {filtered.length === 0 ? (
         <p className="muted" style={{ padding: '24px 0' }}>
@@ -102,28 +102,15 @@ export function Catalog() {
 }
 
 export function CatalogCard({ rec, saved }: { rec: CatalogRecipe; saved?: boolean }) {
-  const mins = (rec.prepMin ?? 0) + (rec.cookMin ?? 0)
   return (
-    <Link to={`/catalogo/${rec.slug}`} className="ccard" data-cat={rec.category}>
-      <span className="ccard-img">
-        {rec.photo ? <img src={rec.photo} alt="" loading="lazy" decoding="async" /> : <CategoryIcon c={rec.category} size={34} />}
-        {saved && (
-          <span className="ccard-saved" aria-label="Ya está en tu recetario">
-            <Check size={14} aria-hidden />
-          </span>
-        )}
-      </span>
-      <span className="ccard-body">
-        <span className="ccard-title">{rec.title}</span>
-        <span className="rmeta num" style={css({ marginTop: 4 })}>
-          {mins > 0 && (
-            <span className="row" style={{ gap: 3 }}>
-              <Clock size={12} aria-hidden /> {mins < 120 ? `${mins} min` : `${Math.round(mins / 60)} h`}
-            </span>
-          )}
-          <span>{rec.ingredients.length} ingr.</span>
-        </span>
-      </span>
-    </Link>
+    <RecipeTile
+      to={`/catalogo/${rec.slug}`}
+      title={rec.title}
+      category={rec.category}
+      photo={rec.photo}
+      minutes={(rec.prepMin ?? 0) + (rec.cookMin ?? 0)}
+      meta={`${rec.ingredients.length} ingr.`}
+      saved={saved}
+    />
   )
 }

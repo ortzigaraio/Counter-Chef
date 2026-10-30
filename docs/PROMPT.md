@@ -66,19 +66,18 @@ interruptor para bajar el tono a *suave*.
 11. **La Pandilla (beef)**: amigos locales, **retos** por enlace ("hazla mejor que yo, saqué un 3"),
     respuestas que vuelven por enlace, marcador del pique, generador de vaciles para enviar.
 
-## Identidad visual
+## Identidad visual (v2, referencia: rótulo Capoli)
 
-- **Logo**: el terrorista *Separatista* de de_inferno (CS:GO) —boina negra, pasamontañas blanco con dos
-  agujeros para los ojos, camisa azul con parche rojo en el hombro, insignia dorada y correa cruzada—
-  sosteniendo una campana de servir, sobre el cielo naranja de Inferno con su campanario. Ilustración
-  estática con volumen (no dibujo animado, no animada). Los emblemas son de cocina (llama, gorro de chef).
-- **Paleta** (distinta a ReciMe): Tinta `#1A1512`, Crema `#FFF7EA`, Bomba `#FF5A1F`,
-  Mostaza `#FFC93C`, Albahaca `#1FA36B`, Azul CT `#3D6BFF` (solo para la Pandilla y el rival).
-- **Tipografía** autoalojada: Bricolage Grotesque (titulares) + Onest (interfaz), cifras tabulares.
-- **Estilo**: atrevido y animado, pero la interfaz de trabajo se mantiene clara. Un momento de
-  movimiento por pantalla, nada de animación decorativa en todo. Sin texto en degradado, sin
-  emojis como iconos (Lucide), sin tarjetas de icono-título-texto repetidas.
-- Tema claro por defecto (cocina con luz) y oscuro automático.
+- **Logo**: sello hexagonal óxido con el terrorista *Separatista* de de_inferno —boina negra,
+  pasamontañas con dos ojos, correa cruzada— levantando una campana de servir, grabado en una sola
+  tinta crema. En la portada va flanqueado por dos estrellas, como un rótulo de casa de comidas.
+- **Wordmark**: «Counter-Chef» en script de alto contraste (Great Vibes), cercano a Capoli.
+- **Paleta**: papel `#ECECE7`, tarjeta `#F7F7F3`, tinta `#2E2C29`, un único acento óxido `#B4532A`
+  (texto `#93401D`), pizarra `#4A5A78` solo para la Pandilla, oliva `#5B6B4A` para «bien hecho».
+  Oscuro carbón `#1C1B19`. La comida de las fotos pone el resto del color.
+- **Tipografía**: Great Vibes (marca), Fraunces (titulares), Onest (interfaz, cifras tabulares).
+- **Estructura**: acciones primero, una sola tarjeta de receta, acciones con texto y las raras en «Más».
+  Crítica completa en `docs/CRITICA-DISENO.md`.
 
 ## Calidad
 

@@ -32,10 +32,8 @@ export function Shell({ children }: { children: ReactNode }) {
     <div className="app">
       <header className="topbar" data-scrolled={scrolled}>
         <Link to="/" className="brand" aria-label="Counter-Chef, inicio">
-          <LogoMark size={38} />
-          <span className="brand-name">
-            Counter<b>-</b>Chef
-          </span>
+          <LogoMark size={36} />
+          <span className="brand-name">Counter-Chef</span>
         </Link>
         <Link to="/importar" className="btn btn--primary btn--sm">
           <Import size={16} aria-hidden /> Importar

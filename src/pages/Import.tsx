@@ -78,7 +78,7 @@ export function ImportPage() {
       }
       const d = parseTextRecipe(text.replace(url ?? '', ''), title)
       if (!d.ingredients.length) {
-        setError(r('importFail') + ' No he encontrado ingredientes con cantidades.')
+        setError('No he encontrado ingredientes con cantidades. Pega la lista con sus medidas (por ejemplo «500 g harina») o usa la IA.')
         return
       }
       openDraft({ ...d, sourceUrl: url })

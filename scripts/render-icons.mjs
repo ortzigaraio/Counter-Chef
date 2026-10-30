@@ -12,8 +12,8 @@ writeFileSync('public/logo.svg', logoSvg())
 const targets = [
   { file: 'icon-192.png', size: 192, svg: logoSvg({ size: 192 }) },
   { file: 'icon-512.png', size: 512, svg: logoSvg({ size: 512 }) },
-  { file: 'icon-maskable-512.png', size: 512, svg: logoSvg({ size: 512, background: BRAND.ink, scale: 0.78 }) },
-  { file: 'apple-touch-icon.png', size: 180, svg: logoSvg({ size: 180, background: BRAND.cream, scale: 0.9 }) },
+  { file: 'icon-maskable-512.png', size: 512, svg: logoSvg({ size: 512, background: BRAND.paper, scale: 0.72 }) },
+  { file: 'apple-touch-icon.png', size: 180, svg: logoSvg({ size: 180, background: BRAND.paper, scale: 0.86 }) },
 ]
 
 const browser = await chromium.launch()

@@ -10,6 +10,7 @@ import {
   Heart,
   Link2,
   Minus,
+  MoreHorizontal,
   Pencil,
   Play,
   Plus,
@@ -60,7 +61,7 @@ export function RecipeDetail() {
   const [targetGrams, setTargetGrams] = useState(0)
   const [metric, setMetric] = useState(false)
   const [baker, setBaker] = useState(false)
-  const [sheet, setSheet] = useState<'log' | 'share' | 'reto' | 'delete' | null>(null)
+  const [sheet, setSheet] = useState<'log' | 'share' | 'reto' | 'delete' | 'more' | null>(null)
   const lastFactor = useRef(1)
   const location = useLocation()
 
@@ -151,7 +152,7 @@ export function RecipeDetail() {
         </div>
       )}
 
-      <div className="row wrap no-print" style={css({ marginTop: 18, '--gap': '8px' })}>
+      <div className="cta-grid no-print">
         <Link to={`/recetas/${recipe.id}/cocinar?x=${round(factor, 4)}`} className="btn btn--primary btn--lg">
           <Play size={18} aria-hidden /> Modo cocina
         </Link>
@@ -162,32 +163,18 @@ export function RecipeDetail() {
           <Swords size={18} aria-hidden /> Retar
         </button>
       </div>
-      <div className="row wrap no-print" style={css({ marginTop: 8, '--gap': '2px' })}>
-        <button className="icon-btn" aria-label="Favorita" aria-pressed={!!recipe.favorite} onClick={() => toggleFavorite(recipe)}>
-          <Heart size={20} fill={recipe.favorite ? 'currentColor' : 'none'} />
+      <div className="toolbar no-print">
+        <button className="tool" aria-pressed={!!recipe.favorite} onClick={() => toggleFavorite(recipe)}>
+          <Heart size={20} fill={recipe.favorite ? 'currentColor' : 'none'} aria-hidden /> Favorita
         </button>
-        <button className="icon-btn" aria-label="Compartir o exportar" onClick={() => setSheet('share')}>
-          <Share2 size={20} />
+        <button className="tool" onClick={() => setSheet('share')}>
+          <Share2 size={20} aria-hidden /> Compartir
         </button>
-        <Link className="icon-btn" aria-label="Editar" to={`/recetas/${recipe.id}/editar`}>
-          <Pencil size={20} />
+        <Link className="tool" to={`/recetas/${recipe.id}/editar`}>
+          <Pencil size={20} aria-hidden /> Editar
         </Link>
-        <button
-          className="icon-btn"
-          aria-label="Duplicar"
-          onClick={async () => {
-            const copy = await saveRecipe({ ...stripRecipe(recipe), title: `${recipe.title} (copia)`, photo: recipe.photo })
-            toast('Duplicada. Ahora puedes estropear la copia sin miedo.')
-            navigate(`/recetas/${copy.id}/editar`)
-          }}
-        >
-          <Copy size={20} />
-        </button>
-        <button className="icon-btn" aria-label="Imprimir" onClick={() => window.print()}>
-          <Printer size={20} />
-        </button>
-        <button className="icon-btn" aria-label="Borrar" onClick={() => setSheet('delete')} style={{ marginLeft: 'auto', color: 'var(--bomba-ink)' }}>
-          <Trash2 size={20} />
+        <button className="tool" onClick={() => setSheet('more')} aria-haspopup="dialog">
+          <MoreHorizontal size={20} aria-hidden /> Más
         </button>
       </div>
 
@@ -217,13 +204,13 @@ export function RecipeDetail() {
         {mode === 'raciones' && (
           <div className="row">
             <div className="stepper">
-              <button aria-label="Menos" onClick={() => setServings((s) => Math.max(1, (s ?? recipe.servings) - 1))}>
+              <button aria-label="Una ración menos" onClick={() => setServings((s) => Math.max(1, (s ?? recipe.servings) - 1))}>
                 <Minus size={18} />
               </button>
               <output aria-live="polite">
                 {servings ?? recipe.servings} <span className="small muted">{recipe.servingsLabel}</span>
               </output>
-              <button aria-label="Más" onClick={() => setServings((s) => (s ?? recipe.servings) + 1)}>
+              <button aria-label="Una ración más" onClick={() => setServings((s) => (s ?? recipe.servings) + 1)}>
                 <Plus size={18} />
               </button>
             </div>
@@ -398,6 +385,30 @@ export function RecipeDetail() {
       <LogSheet open={sheet === 'log'} onClose={() => setSheet(null)} recipe={recipe} factor={factor} />
       <ShareSheet open={sheet === 'share'} onClose={() => setSheet(null)} recipe={recipe} factor={factor} />
       <ChallengeSheet open={sheet === 'reto'} onClose={() => setSheet(null)} recipe={recipe} lastRating={logs?.[0]?.rating} />
+      <Sheet open={sheet === 'more'} onClose={() => setSheet(null)} title="Más acciones">
+        <button
+          className="btn btn--block"
+          onClick={async () => {
+            const copy = await saveRecipe({ ...stripRecipe(recipe), title: `${recipe.title} (copia)`, photo: recipe.photo })
+            toast('Duplicada. Ahora puedes estropear la copia sin miedo.')
+            navigate(`/recetas/${copy.id}/editar`)
+          }}
+        >
+          <Copy size={18} aria-hidden /> Duplicar receta
+        </button>
+        <button
+          className="btn btn--block"
+          onClick={() => {
+            setSheet(null)
+            setTimeout(() => window.print(), 300)
+          }}
+        >
+          <Printer size={18} aria-hidden /> Imprimir o guardar PDF
+        </button>
+        <button className="btn btn--danger btn--block" onClick={() => setSheet('delete')}>
+          <Trash2 size={18} aria-hidden /> Borrar receta
+        </button>
+      </Sheet>
       <Sheet open={sheet === 'delete'} onClose={() => setSheet(null)} title="¿Borrar la receta?">
         <p className="muted">Se borra «{recipe.title}» y su historial. No hay ctrl+Z en la vida.</p>
         <div className="row">
